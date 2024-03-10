@@ -1,0 +1,65 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .navbar-icons {
+    display: flex;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu-dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-menu {
+      display: block;
+    }
+  
+    .navbar-icons {
+      display: none;
+    }
+  }
+  

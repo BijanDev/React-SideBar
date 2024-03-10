@@ -1,0 +1,71 @@
+.logo {
+    color: white;
+    margin-left: 12%;
+    margin-right: 20px;
+}
+
+.sideBar {
+    width: 250px;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background: #39354C;
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: 2;
+    box-shadow: 10px 0px 20px 0px rgba(0, 0, 0, 0.338);
+}
+
+.sideBarList {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.sideBarList .sideBarRow {
+    width: 100%;
+    height: 30px;
+    padding: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.5s;
+}
+
+.sideBarList .sideBarRow:hover {
+    cursor: pointer;
+    background-color: #262435;
+}
+
+#active {
+    background-color: #262435;
+}
+
+.sideBarRow #icon {
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.sideBarRow #title {
+    flex: 70%;
+}
+
+.bar {
+    width: 30px;
+    height: 30px;
+    background-color: #f0f8fff2;
+    border-radius: 15px;
+}
+
+.logoTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
